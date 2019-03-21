@@ -7,5 +7,5 @@
 # => String#delete - x.delete(" \t\r\n") - deletes all listed whitespace.
 # => String#gsub - x.gsub(/[[:space:]]/, '') - removes all whitespace, including unicode ones.
 def greeting (name)
-  puts "Hello #{name.delete(" \t\n")}. It's nice to meet you." 
+  puts "Hello #{name.delete(" \t\n")}. It's nice to meet you."
 end
